@@ -1,0 +1,115 @@
+p{
+    word-wrap: break-word;
+}
+.left_header{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 210px;
+    height: 100%;
+    user-select: none;
+    background-color: rgb(145, 30, 175);
+}
+.left_header div:not(#user){
+    position: relative;
+    top: 10px;
+    left: 15px;
+    line-height:22px; 
+}
+.left_header a{/*ヘッダーのリンク*/
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.left_header h3{
+    margin-left: 15px;
+}
+.left_header img{
+    line-height:0;
+    position: relative;
+}
+#bar{
+    height:100%;
+    width:.2vw;
+    border-width:0;
+    color:rgb(61, 60, 60);
+    background-color:rgb(61, 60, 60);
+    position: fixed;
+    left: 210px;
+    margin: 0
+}
+#user{
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    width: 210px;
+    height: 70px;
+}
+#profileimg img{
+    position: relative;
+    border-radius: 30%;
+}
+#name a{
+    position:relative;
+    left: 80px;
+    bottom: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+.leftbutton{
+    display: none;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 212px;
+    width: calc(100% - 212px);
+    height: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(186, 211, 203);
+}
+
+
+@media screen and (max-width: 630px) {/*モバイル向けの表示*/
+    .left_header{
+        width: 65px;
+    }
+    #name{
+        display: none;
+    }
+    .main{
+        left: 66px;
+        width:  calc(100% - 66px);
+    }
+    #profileimg img{
+        margin: 0;
+        padding: 0;
+        right:7px;
+    }
+    .leftbutton{
+        position:absolute;
+        right:2px;
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    #bar{
+        left: 65px;
+    }
+    .left_header h3{
+        display: none;
+    }
+    #logo img{
+        position:relative;
+        right: 6px;
+        height: 50px;
+        width: 50px;
+    }
+}

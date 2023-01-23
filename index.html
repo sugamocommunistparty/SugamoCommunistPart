@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>巣鴨共産党HOME</title><!--可変-->
+        <link rel="icon" href="./アイコン.ico" sizes="128x128">
+        <!--サムネイル関係-->
+        <meta property="og:title" content="巣鴨共同生産党">
+        <meta property="og:description" content="巣園害児が互いに助け合う。掲示板、SNS、情報共有などのためのサービス">
+        <meta name="viewport" content="width=device-width,initial-scale=0.85">
+        <!--CSS,JS-->
+        <link rel="stylesheet" href="./CSS/LeftBar.css">
+        <link rel="stylesheet" href="./CSS/home.css"><!--これはindexのhomeだけ-->
+        <script src="./javascript/index.js"></script>
+    </head>
+    <body onload="">
+        <header>
+            <div class="left_header">
+                <div id="logo"><a href="./index.html"><img src="./巣鴨共産党.jpg" width="170" height="170"></a></div>
+                <div id="HOME"><a href="./index.html"><img class="leftbutton" src="./picture/left_home.png"><h3>HOME</h3></a> </div>
+                <div id="sns"><a href="./social.html"><img class="leftbutton" src="./picture/left_social.png"><h3>ソーシャル</h3></a></div>
+                <div id="comunity"><a href="./comunity.html"><img class="leftbutton" src="./picture/left_comunication.png"><h3>コミュニティ</h3></a></div>
+                <div id="study"><a href="./study.html"><img class="leftbutton" src="./picture/left_study.png"><h3>学びの窓</h3></a></div>
+                <div id="tools"><a href="./tools.html"><img class="leftbutton" src="picture\left_tools.png"><h3>ツール  </h3></a></div>
+                <div id="notification"><a href="./notifications.html"><img class="leftbutton" src="./picture/left_notification.png"><h3>通知(0)</h3></a></div><!--JSで実装させる通知確認-->
+                <div id="study"><a href="./messege.html"><img class="leftbutton" src="./picture/left_message.png"><h3>メッセージ(0)</h3></a></div>
+                <div id="setting"><a href="./setting.html"><img class="leftbutton" src="./picture/left_setting.png"><h3>設定</h3></a></div>
+                <div id="other">
+                        <!--他の機能-->
+                </div>
+                <div id="user">
+                    <div id="profileimg"><img src="./picture/巣園太郎.png" width="50px" height="50px"></div>
+                    <div id="name"><a href="./login.html">ログイン</a></div>
+                </div>
+            </div>
+            <div id="bar"></div>
+        </header>
+        <main>
+            <div class="main">
+                <br>
+                <h2 style="padding-left: 20px;">Welcome to 巣園共同生産党！</h2>
+                <h2 style="padding-left: 60px;">現在開発中</h2>
+                <h3 style="padding-left: 40px;">順次サービス開始</h3>
+                <p style="padding-left: 30px;">現在スマホでの表示には対応中</p>
+                <br><br>
+                <p>　BitCoin寄付してくれ</p>
+                <p>　アドレス：1Aigc6T27tyd3E8HHrZNTPLVfEM37UZGoo</p><br><br>
+                <hr style="height: 1px; margin-left: 1px;">
+                <h1 style="padding-left: 20px;">有料ユーザーはここからログイン</h1>
+                
+                <form style="padding-left: 10px;" name="passwordform">
+                    パスワード：<input type="password" name="pass">
+                    <br>
+                    <a onclick="passcheck()" style="background-color: aliceblue; user-select: none; margin: 1px 1px 1px 1px;border: 1px solid #878484;border-radius: 1px;padding: 1px;;">ログイン</a>
+                    <input type="text" name="dummy" style="display:none;">
+                </form>
+
+                <br><br><br><hr style="height: 1px; margin-left: 1px;">
+                <h1 style="padding-left: 30px;">お知らせ</h1><br>
+                <p style="padding-left: 30px;">特になし</p>
+                <br><hr style="height: 1px; margin-left: 1px;"><p>　クソ動画www</p>
+                <video controls width="400" src="./巣鴨レーニン吊り上げ.mp4"></video><br>
+                <video controls width="400" src="./校長謝罪.mp4"></video>
+                <br>
+                <h2 style="color: red; margin-left: 10px;">小倉の馬鹿野郎</h2>
+                <img style="margin-left: 10px; width: 400px;" src="./photo/0001/a.jpg">
+                <br><br>
+                <div style="text-align:center; background-color: #b3b3b3; margin-left: 1px;">©Copyright 2023 巣鴨共産党</div>
+            </div>
+        </main>
+    </body>
+</html>
