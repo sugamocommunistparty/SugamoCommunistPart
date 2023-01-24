@@ -1,5 +1,6 @@
 p{
     word-wrap: break-word;
+    text-decoration:none;
 }
 .left_header{
     margin: 0;
